@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Chinmay | Web Developer Portfolio</title>
+    <meta name="description" content="Full-stack web developer specializing
+          in React and Node.js. Available for freelance projects.">
+    <meta name="keywords" content="web developer, React, JavaScript, portfolio">
+    <meta name="author" content="Chinmay">
+
+    <!-- Open Graph (for Facebook, LinkedIn, WhatsApp previews) -->
+    <meta property="og:title" content="Chinmay| Web Developer">
+    <meta property="og:description" content="Check out my portfolio and projects!">
+    <meta property="og:image" content="https://chinmay.com/preview.jpg">
+    <meta property="og:url" content="https://chinmay.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Chinmay| Web Developer">
+    <meta name="twitter:description" content="Check out my portfolio!">
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="class-header">
+        <nav class="nav-bar">
+            <div class="logo">CRD</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" title="Toggle-dark-mode" aria-label="toggle-dark-mode">🌙</button>
+            <button class="toggle-menu" title="Toggle-menu" aria-expanded="false" aria-label="toggle-menu">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section" id="hero">
+            <h1>Hi, I'm Chinmay 👋 </h1>
+            <p class="tagline"> A passionate web developer learning to build clean and modern websites.</p>
+            <a href="#contact">Hire me</a>
+            <div class="hero-button">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <figure class="profile-figure">
+                <img src="/profile.png" alt="profile pic" width="250">
+                <figcaption>Chinmay Dundi - Web developer</figcaption>
+            </figure>
+            <div class="about-text">
+                <p>
+                    I enjoy building clean and user-friendly web pages.
+                    I am currently learning HTML, CSS, JavaScript and React,
+                    and I'm improving my skills by building projects and experimenting
+                    with modern web design.
+                </p>
+                <p>
+                    I have completed HTML and CSS and am currently expanding
+                    my knowledge of JavaScript and modern web development.
+                    I enjoy turning ideas into simple, functional web pages
+                    and improving my skills by building projects.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="skill-section">
+            <h2>My Skills</h2>
+            <div id="skills" class="skill-grid">
+                <div class="skill-item" data-level="80">HTML</div>
+                <div class="skill-item" data-level="75">CSS</div>
+                <div class="skill-item" data-level="70">JavaScript</div>
+                <div class="skill-item" data-level="65">React</div>
+                <div class="skill-item" data-level="60">Python</div>
+                <div class="skill-item" data-level="50">C</div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Personal Portfolio</h3>
+                    <p> A personal portfolio website created using HTML and CSS.It showcases my skills, projects, and contact information.</p>
+                    <a href="#">View Project</a>
+                    <a href="#">GitHub Repository</a>
+                </div>
+                <div class="project-card">
+                    <h3>Weather App</h3>
+                    <p> A simple weather application that displays current weather information for a given location.</p>
+                    <a href="#">View Project</a>
+                    <a href="#">GitHub Repository</a>
+                </div>
+                <div class="project-card">
+                    <h3>To-Do List</h3>
+                    <p> A to-do list application that allows users to add, edit, and delete tasks.</p>
+                    <a href="#">View Project</a>
+                    <a href="#">GitHub Repository</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact me</h2>
+            <p>Have a project in mind</p>
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter here" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Enter here" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select name="subject" id="subject">
+                        <option value="">Select one</option>
+                        <option value="hire">I want to hire</option>
+                        <option value="collab">I want to collaborate</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">message</label>
+                    <textarea name="message" id="message" placeholder="type here"></textarea>
+                </div>
+
+                <button type="submit">Send the message</button>
+                <br><br>
+            </form>
+            <footer>
+                <p> E-mail : <a href="mailto:chinmaydundi@gmail.com">chinmaydundi@gmail.com</a></p>
+                <a href="https://www.linkedin.com/in/chinmay-dundi-840752427/">linkdin</a>
+                <a href="">Github</a>
+                <p>&copy; 2026 Chinmay Dundi. All rights reserved.</p>
+            </footer>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
