@@ -25,6 +25,8 @@ body{
     line-height: 1.6;
 }
 
+
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -93,6 +95,12 @@ body{
     font-size: 0.95rem;
     text-align: center;
     box-shadow: 0 4px 12px var(--shadow-color);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-item:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px var(--primary-hover);
 }
 
 h2{
@@ -114,4 +122,49 @@ h2{
     border: 2px solid var(--border-color);
     border-radius: var(--border-radius);
     box-shadow: 0 4px 12px var(--shadow-color);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
 }
+
+.project-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px var(--primary-hover);
+
+}
+
+.project-card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: 2px solid var(--border-color);
+
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+}
+
+.btn-primary:hover{
+    background-color: var(--primary-hover);
+}
+
+.btn-secondary{
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+}
+
+.btn-secondary:hover{
+    background-color: var(--primary-hover);
+    box-shadow: 0 6px 12px var(--shadow-color);
+}
+
