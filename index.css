@@ -196,7 +196,7 @@ section h2::after {
 
 .hero-section h1 {
     animation: fadeinup 0.8s ease 0.2s both;
-    -o-animation-iteration-count: ;
+    
 }
 
 .tagline {
