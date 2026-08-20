@@ -23,7 +23,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Chinmay| Web Developer">
     <meta name="twitter:description" content="Check out my portfolio!">
-    <link href="index.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -55,29 +55,45 @@
 
         <section id="about" class="about-section">
             <h2>About Me</h2>
-            <figure class="profile-figure">
-                <img src="/profile.png" alt="profile pic" width="250">
-                <figcaption>Chinmay Ramachandra Dundi - Web developer</figcaption>
-            </figure>
-            <div class="about-text">
-                <p>
-                    I enjoy building clean and user-friendly web pages.
-                    I am currently learning HTML, CSS, JavaScript and React,
-                    and I'm improving my skills by building projects and experimenting
-                    with modern web design.
-                </p>
-                <p>
-                    I have completed HTML and CSS and am currently expanding
-                    my knowledge of JavaScript and modern web development.
-                    I enjoy turning ideas into simple, functional web pages
-                    and improving my skills by building projects.
-                </p>
+            <div class="about-content">
+                <figure class="profile-figure">
+                    <img src="images/profile.png" alt="profile pic" width="250">
+                    <figcaption>Chinmay Ramachandra Dundi — Web developer</figcaption>
+                </figure>
+                <div class="about-text">
+                    <p>
+                        I enjoy building clean and user-friendly web pages.
+                        I am currently learning HTML, CSS, JavaScript and React,
+                        and I'm improving my skills by building projects and experimenting
+                        with modern web design.
+                    </p>
+                    <p>
+                        I have completed HTML and CSS and am currently expanding
+                        my knowledge of JavaScript and modern web development.
+                        I enjoy turning ideas into simple, functional web pages
+                        and improving my skills by building projects.
+                    </p>
+                    <div class="about-facts">
+                        <div class="fact-item">
+                            <span class="fact-number">3+</span>
+                            <span class="fact-label">Projects Built</span>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-number">6</span>
+                            <span class="fact-label">Core Skills</span>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-number">Open</span>
+                            <span class="fact-label">To Freelance Work</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="skills" class="skill-section">
             <h2>My Skills</h2>
-            <div id="skills" class="skill-grid">
+            <div id="skills-grid" class="skill-grid">
                 <div class="skill-item" data-level="80">HTML</div>
                 <div class="skill-item" data-level="75">CSS</div>
                 <div class="skill-item" data-level="70">JavaScript</div>
@@ -91,7 +107,7 @@
             <h2>My Projects</h2>
             <div class="project-grid">
                 <div class="project-card">
-                    <img src="/image.png" alt="project image">
+                    <img src="images/image.png" alt="project image">
                     <h3>Personal Portfolio</h3>
                     <p> A personal portfolio website created using HTML and CSS.It showcases my skills, projects, and
                         contact information.</p>
@@ -145,13 +161,15 @@
                 <button type="submit">Send the message</button>
                 <br><br>
             </form>
-            <footer class="site-footer">
-                <a href="mailto:chinmaydundi@gmail.com">G-mail</a>
-                <a href="https://www.linkedin.com/in/chinmay-dundi-840752427/">linkdin</a>
-                <a href="https://github.com/chinmaydundi">Github</a>
-                <p>&copy;Created by Chinmay R D</p>
-            </footer>
         </section>
+
+        <footer class="site-footer">
+            <a href="mailto:chinmaydundi@gmail.com">G-mail</a>
+            <a href="https://www.linkedin.com/in/chinmay-dundi-840752427/">linkdin</a>
+            <a href="https://github.com/chinmaydundi">Github</a>
+            <p>&copy;Created by Chinmay R D</p>
+        </footer>
+
 
         <script src="script.js"></script>
     </main>
